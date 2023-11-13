@@ -3,6 +3,9 @@ ifeq ($(CONFIG_MMI_DEVICE_DTBS),y)
 dtbo-$(CONFIG_ARCF_DTB) += pineapple-ese-arcf-evt1a.dtbo
 dtbo-$(CONFIG_CTWOV_DTB) += pineapple-ese-ctwov-evb.dtbo
 
+dtbo-$(CONFIG_ARCFOX_DTB) += pineapple-ese-arcfox-evt3.dtbo
+dtbo-$(CONFIG_CTWO_DTB) += pineapple-ese-ctwo-evb3.dtbo
+
 else
 ifeq ($(CONFIG_ARCH_PINEAPPLE),y)
 dtbo-y += pineapple-ese-mtp.dtbo
